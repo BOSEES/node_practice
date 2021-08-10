@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5", //컴파일하고싶은 문법 타겟
+    "module": "commonjs",
+    "outDir": "dist",//컴파일한 파일을 넣고 싶은곳
+    "rootDir": "./src",//루트 디렉토리 설정
+    "strict": true,//엄격모드
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
